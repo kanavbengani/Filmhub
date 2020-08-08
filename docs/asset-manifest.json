@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Filmhub/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/Filmhub/static/js/main.8778090b.chunk.js",
+    "main.js.map": "/Filmhub/static/js/main.8778090b.chunk.js.map",
+    "runtime-main.js": "/Filmhub/static/js/runtime-main.e396fb5a.js",
+    "runtime-main.js.map": "/Filmhub/static/js/runtime-main.e396fb5a.js.map",
+    "static/js/2.00b12836.chunk.js": "/Filmhub/static/js/2.00b12836.chunk.js",
+    "static/js/2.00b12836.chunk.js.map": "/Filmhub/static/js/2.00b12836.chunk.js.map",
+    "index.html": "/Filmhub/index.html",
+    "precache-manifest.85d57e43fc12f38c6218fc80bf581cfc.js": "/Filmhub/precache-manifest.85d57e43fc12f38c6218fc80bf581cfc.js",
+    "service-worker.js": "/Filmhub/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/Filmhub/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.00b12836.chunk.js.LICENSE.txt": "/Filmhub/static/js/2.00b12836.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e396fb5a.js",
+    "static/js/2.00b12836.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.8778090b.chunk.js"
+  ]
+}

@@ -6,11 +6,12 @@ import ReactGA from "react-ga";
 
 // Layouts
 import LayoutDefault from "./layouts/LayoutDefault";
+import LayoutLoggedIn from "./layouts/LayoutLoggedIn";
 
 // Views
 import Home from "./views/Home";
-import signIn from "./components/SignIn";
-import load from "./components/Load";
+import signIn from "./components/sections/SignIn";
+import load from "./components/sections/Load";
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -38,8 +39,8 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-          <AppRoute path="/signin" component={signIn} />
-          <AppRoute path="/load" component={load} />
+          <AppRoute path="/signin" component={signIn} layout={LayoutDefault} />
+          <AppRoute path="/load" component={load} layout={LayoutLoggedIn} />
         </Switch>
       )}
     />

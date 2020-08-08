@@ -20,7 +20,7 @@ const defaultProps = {
   bottomDivider: false,
 };
 
-const Header = ({
+const HeaderLoggedIn = ({
   className,
   navPosition,
   hideNav,
@@ -121,11 +121,11 @@ const Header = ({
                     <ul className="list-reset header-nav-right">
                       <li>
                         <Link
-                          to="signin"
+                          to="/"
                           className="button button-primary button-wide-mobile button-sm"
                           onClick={closeMenu}
                         >
-                          Sign up
+                          Log out
                         </Link>
                       </li>
                     </ul>
@@ -140,7 +140,7 @@ const Header = ({
   );
 };
 
-Header.propTypes = propTypes;
-Header.defaultProps = defaultProps;
+HeaderLoggedIn.propTypes = propTypes;
+HeaderLoggedIn.defaultProps = defaultProps;
 
-export default Header;
+export default HeaderLoggedIn;

@@ -10,7 +10,29 @@
     "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.20",
+    "multer": "^1.4.2",
+    "react-redux": "^5.0.7",
+    "socket.io": "^2.2.0",
+    "antd": "^3.24.1",
+    "axios": "^0.18.0",
+    "formik": "^1.5.8",
+    "react-dropzone": "^10.2.1",
+    "react-icons": "^3.7.0",
+    "redux": "^4.0.0",
+    "redux-form": "^8.2.6",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "^2.2.0",
+    "yup": "^0.27.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,5 +55,8 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "http-proxy-middleware": "^0.19.1"
+  }
 }

@@ -14,6 +14,7 @@ import signIn from "./components/sections/SignIn";
 import load from "./components/sections/Load";
 import Add from "./components/sections/Add";
 import LayoutFooter from "./layouts/LayoutFooter";
+import Upload from "./components/sections/Upload";
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -44,6 +45,7 @@ const App = () => {
           <AppRoute path="/signin" component={signIn} layout={LayoutDefault} />
           <AppRoute path="/load" component={load} layout={LayoutLoggedIn} />
           <AppRoute path="/add" component={Add} layout={LayoutFooter} />
+          <AppRoute path="/upload" component={Upload} layout={LayoutFooter} />
         </Switch>
       )}
     />

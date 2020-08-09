@@ -3,6 +3,7 @@ import classNames from "classnames";
 import { SectionTilesProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
 import Image from "../elements/Image";
+import { Link } from "react-router-dom";
 
 const propTypes = {
   ...SectionTilesProps.types,
@@ -53,23 +54,12 @@ const FeaturesTiles = ({
             >
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header"></div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Repository Name</h4>
-                  <p className="m-0 text-sm">Description of Repository</p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="tiles-item reveal-from-bottom"
-              data-reveal-delay="400"
-            >
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header"></div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Repository Name</h4>
-                  <p className="m-0 text-sm">Description of Repository</p>
-                </div>
+                <Link to="upload">
+                  <div className="features-tiles-item-content">
+                    <h4 className="mt-0 mb-8">Repository Name</h4>
+                    <p className="m-0 text-sm">Description of Repository</p>
+                  </div>
+                </Link>
               </div>
             </div>
             <div

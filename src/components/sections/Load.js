@@ -3,6 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import { Link } from "react-router-dom";
 import classNames from "classnames";
 import { size } from "lodash";
+import FeaturesTiles from "./FeaturesTiles";
 
 const load = ({
   className,
@@ -15,7 +16,7 @@ const load = ({
   ...props
 }) => {
   const outerClasses = classNames(
-    "hero section left-content",
+    "hero section center-content",
     topOuterDivider && "has-top-divider",
     bottomOuterDivider && "has-bottom-divider",
     hasBgColor && "has-bg-color",
@@ -56,15 +57,12 @@ const load = ({
                 Film | Photo | Final Cut Pro X | Adobe Premiere Pro | Adobe
                 After Effects
               </p>
+              <FeaturesTiles />
             </div>
           </Cell>
         </Grid>
       </div>
     </section>
-    // <div>
-    //   <h1>Load</h1>
-    //   <p>Loading..</p>
-    // </div>
   );
 };
 

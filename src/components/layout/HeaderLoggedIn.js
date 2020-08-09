@@ -112,8 +112,12 @@ const HeaderLoggedIn = ({
                     )}
                   >
                     <li>
-                      <Link to="load" onClick={closeMenu}>
-                        Documentation
+                      <Link
+                        to="add"
+                        className="button button-primary button-wide-mobile button-sm"
+                        onClick={closeMenu}
+                      >
+                        Add a Repo
                       </Link>
                     </li>
                   </ul>

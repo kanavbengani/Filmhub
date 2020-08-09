@@ -110,13 +110,7 @@ const Header = ({
                       "list-reset text-xs",
                       navPosition && `header-nav-${navPosition}`
                     )}
-                  >
-                    <li>
-                      <Link to="load" onClick={closeMenu}>
-                        Documentation
-                      </Link>
-                    </li>
-                  </ul>
+                  ></ul>
                   {!hideSignin && (
                     <ul className="list-reset header-nav-right">
                       <li>

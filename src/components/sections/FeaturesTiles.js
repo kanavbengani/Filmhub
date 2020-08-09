@@ -46,7 +46,45 @@ const FeaturesTiles = ({
     <section {...props} className={outerClasses}>
       <div className="container">
         <div className={innerClasses}>
-          <div className={tilesClasses}></div>
+          <div className={tilesClasses}>
+            <div
+              className="tiles-item reveal-from-bottom"
+              data-reveal-delay="400"
+            >
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header"></div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Repository Name</h4>
+                  <p className="m-0 text-sm">Description of Repository</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="tiles-item reveal-from-bottom"
+              data-reveal-delay="400"
+            >
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header"></div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Repository Name</h4>
+                  <p className="m-0 text-sm">Description of Repository</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="tiles-item reveal-from-bottom"
+              data-reveal-delay="400"
+            >
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header"></div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Repository Name</h4>
+                  <p className="m-0 text-sm">Description of Repository</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
